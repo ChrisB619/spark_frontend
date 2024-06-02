@@ -1,0 +1,30 @@
+[
+    {
+      "fileName": "Sample.pdf",
+      "fileType": "pdf",
+      "fileSize": "10.45kb",
+      "lastModified": "1 min ago",
+      "icon": "fa-regular fa-file-pdf"
+    },
+    {
+      "fileName": "Document.docx",
+      "fileType": "docx",
+      "fileSize": "22.67kb",
+      "lastModified": "30 mins ago",
+      "icon": "fa-regular fa-file-word"
+    },
+    {
+      "fileName": "icon.png",
+      "fileType": "png",
+      "fileSize": "12.47kb",
+      "lastModified": "1 hour ago",
+      "icon": "fa-regular fa-file-image"
+    },
+    {
+      "fileName": "Users.xls",
+      "fileType": "xls",
+      "fileSize": "35.11kb",
+      "lastModified": "23 Jul 6:30 PM",
+      "icon": "fa-regular fa-file-excel"
+    }
+  ]

@@ -1,0 +1,32 @@
+[
+    {
+      "image":"avatar-19.jpg",
+      "name": "Barry Cuda CEO",
+      "email": "barrycuda@example.com",
+      "status": "Active"
+    },
+    {
+      "image":"avatar-07.jpg",
+      "name": "Tressa Wexler Manager",
+      "email": "tressawexler@example.com",
+      "status": "Inactive"
+    },
+    {
+      "image":"avatar-06.jpg",
+      "name": "Ruby Bartlett CEO",
+      "email": "rubybartlett@example.com",
+      "status": "Inactive"
+    },
+    {
+      "image":"avatar-14.jpg",
+      "name": "Misty Tison CEO",
+      "email": "mistytison@example.com",
+      "status": "Active"
+    },
+    {
+      "image":"avatar-19.jpg",
+      "name": "Daniel Deacon CEO",
+      "email": "danieldeacon@example.com",
+      "status": "Inactive"
+    }
+  ]

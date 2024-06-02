@@ -1,0 +1,28 @@
+[
+  {
+    "id":1,
+    "Plan": "FreeTrial",
+    "PlanType": "Monthly",
+    "CreateDate": "9Nov2023",
+    "ModifiedDate": "8Dec2023",
+    "Amount": "Free",
+    "SubscribedUsers": "30Users"
+  },
+  {
+    "id":2,
+    "Plan": "Professional",
+    "PlanType": "Monthly",
+    "CreateDate": "9Nov2023",
+    "ModifiedDate": "8Dec2023",
+    "Amount": "$21",
+    "SubscribedUsers": "97Users"
+  },
+  {    "id":3,
+    "Plan": "Enterprise",
+    "PlanType": "Monthly",
+    "CreateDate": "9Nov2023",
+    "ModifiedDate": "8Dec2023",
+    "Amount": "$38",
+    "SubscribedUsers": "125Users"
+  }
+]

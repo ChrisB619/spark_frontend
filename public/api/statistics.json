@@ -1,0 +1,43 @@
+{
+    "cards": [
+      {
+        "title": "Statistics",
+        "stats": [
+          { "label": "Today Leave", "count": 4, "total": 65, "progress": 31, "color": "bg-primary" },
+          { "label": "Pending Invoice", "count": 15, "total": 92, "progress": 31, "color": "bg-warning" },
+          { "label": "Completed Projects", "count": 85, "total": 112, "progress": 62, "color": "bg-success" },
+          { "label": "Open Tickets", "count": 190, "total": 212, "progress": 62, "color": "bg-danger" },
+          { "label": "Closed Tickets", "count": 22, "total": 212, "progress": 22, "color": "bg-info" }
+        ]
+      },
+      {
+        "title": "Task Statistics",
+        "stats": [
+          { "label": "Total Tasks", "count": 385 },
+          { "label": "Overdue Tasks", "count": 19 }
+        ],
+        "progress": [
+          { "label": "Completed", "progress": 30, "color": "bg-purple" },
+          { "label": "Inprogress", "progress": 22, "color": "bg-warning" },
+          { "label": "On Hold", "progress": 24, "color": "bg-success" },
+          { "label": "Pending", "progress": 26, "color": "bg-danger" },
+          { "label": "Review", "progress": 10, "color": "bg-info" }
+        ],
+        "tasks": [
+          { "label": "Completed Tasks", "count": 166, "color": "text-purple" },
+          { "label": "Inprogress Tasks", "count": 115, "color": "text-warning" },
+          { "label": "On Hold Tasks", "count": 31, "color": "text-success" },
+          { "label": "Pending Tasks", "count": 47, "color": "text-danger" },
+          { "label": "Review Tasks", "count": 5, "color": "text-info" }
+        ]
+      },
+      {
+        "title": "Today Absent",
+        "absentCount": 5,
+        "absentees": [
+          { "name": "Martin Lewis", "leaveDate": "4 Sep 2023", "status": "Pending" },
+          { "name": "Martin Lewis", "leaveDate": "4 Sep 2023", "status": "Approved" }
+        ]
+      }
+    ]
+  }

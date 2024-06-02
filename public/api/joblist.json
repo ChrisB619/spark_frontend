@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Web Developer",
+    "department": "Development",
+    "type": "Full Time",
+    "location": "California",
+    "salary": "$35,000 - $38,000",
+    "posted": "2 days ago"
+  },
+  {
+    "id": 2,
+    "title": "Android Developer",
+    "department": "App Development",
+    "type": "Part Time",
+    "location": "California",
+    "salary": "$35,000 - $38,000",
+    "posted": "2 days ago"
+  },
+  {
+    "id": 3,
+    "title": "Web Developer",
+    "department": "Development",
+    "type": "Full Time",
+    "location": "California",
+    "salary": "$35,000 - $38,000",
+    "posted": "2 days ago"
+  },
+  {
+    "id": 4,
+    "title": "Android Developer",
+    "department": "App Development",
+    "type": "Part Time",
+    "location": "California",
+    "salary": "$35,000 - $38,000",
+    "posted": "2 days ago"
+  },
+  {
+    "id": 5,
+    "title": "Web Developer",
+    "department": "Development",
+    "type": "Full Time",
+    "location": "California",
+    "salary": "$35,000 - $38,000",
+    "posted": "2 days ago"
+  },
+  {
+    "id": 6,
+    "title": "Android Developer",
+    "department": "App Development",
+    "type": "Part Time",
+    "location": "California",
+    "salary": "$35,000 - $38,000",
+    "posted": "2 days ago"
+  }
+]

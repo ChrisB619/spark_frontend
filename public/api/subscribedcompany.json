@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+      "title": "Today Presents",
+      "value": "12/60",
+      "period": ""
+    },
+    {
+        "id":2,
+      "title": "Planned Leave",
+      "value": 8,
+      "period": "Today"
+    },
+    {
+        "id":3,
+      "title": "UnPlanned Leave",
+      "value": 0,
+      "period": "Today"
+    },
+    {
+        "id":4,
+      "title": "Pending Request",
+      "value": 12
+    }
+  ]
+  

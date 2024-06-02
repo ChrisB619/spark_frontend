@@ -1,0 +1,37 @@
+[
+    {
+      "id":1,
+      "label":" Job Type",
+      "icon": "'fa-solid fa-chart-column'",
+      "value": "Full Time"
+    },
+    {
+      "id":2,
+      "label": "Salary",
+      "icon": "fa-regular fa-money-bill-1",
+      "value": "$32k - $38k"
+    },
+    {
+      "id":3,
+      "label": "Experience",
+      "icon": "fa-solid fa-suitcase",
+      "value": "2 Years"
+    },
+    {
+      "id":4,
+      "label": "Vacanc",
+      "icon":" fa-solid fa-ticket",
+      "value": "5"
+    },
+    {
+      "id":5,
+      "label": "Location",
+      "icon":" fa-solid fa-signs-post",
+      "value": "Dreamguy's Technologies\n3864 Quiet Valley Lane,\nSherman Oaks,\nCalifornia, 91403"
+    },
+    {
+      "id":5,
+      "label": "Contact Info",
+      "value": "818-978-7102 ndanielporter@example.com\nhttps://www.example.com"
+    }
+  ]

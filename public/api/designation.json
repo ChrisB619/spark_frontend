@@ -1,0 +1,52 @@
+[
+  { "id": 1, 
+  "department": "Web Designer",
+   "designation": "Web Developer"
+ },
+
+  { "id": 2, 
+  "department": "Web Developer", 
+  "designation": "Web Development"
+ },
+ 
+  {
+    "id": 3,
+    "department": "Android Developer",
+    "designation": "Application Development"
+  },
+  {
+    "id": 4,
+    "department": "IOS Developer",
+    "designation": "Application Development"
+  },
+  {
+    "id": 5,
+    "department": "UI Designer",
+    "designation": "Application Development"
+  },
+  {
+    "id": 6,
+    "department": "UX Designer",
+    "designation": "Application Developer"
+  },
+  {
+    "id": 7,
+    "department": "IT Technician",
+    "designation": "Application Developer"
+  },
+  {
+    "id": 8,
+    "department": "Product Manager",
+    "designation": "Application Developer"
+  },
+  {
+    "id": 9,
+    "department": "SEO Analyst",
+    "designation": "Application Developer"
+  },
+  {
+    "id": 10,
+    "department": "Front End Designer",
+    "designation": "Application Developer"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+  "id": 1,
+    "Title": "New Year",
+   "HolidayDate": "1 Jan 2023",
+   "Day": "Sunday"
+  },
+  {
+  "id": 2,
+    "Title": "Good Friday",
+   "HolidayDate": "14 Apr 2023",
+   "Day": "Friday"
+  },
+  {
+  "id": 3,
+    "Title": "May",
+   "HolidayDate": "1 May 2023",
+   "Day": "Monday",
+  "Action": ""
+  },
+  {
+  "id": 4,
+    "Title": "Memorial",
+   "HolidayDate": "28 May 2023",
+   "Day": "Monday"
+  },
+  {
+  "id": 5,
+    "Title": "Ramzon",
+   "HolidayDate": "26 Jun 2023",
+   "Day": "Monday"
+  },
+  {
+  "id": 6,
+    "Title": "Bakrid",
+   "HolidayDate": "2 Sep 2023",
+   "Day": "Saturday",
+  "Action": ""
+  },
+  {
+  "id": 7,
+    "Title": "Deepavali",
+   "HolidayDate": "18 Oct 2023",
+   "Day": "Wednesday",
+  "Action": ""
+  },
+  {
+  "id": 8,
+    "Title": "Christmas",
+   "HolidayDate": "25 Dec 2023",
+   "Day": "Monday",
+  "Action": ""
+  }
+]

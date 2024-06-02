@@ -1,0 +1,24 @@
+[
+    {
+        "id":1,
+      "title": "Today Presents",
+      "value": "12 / 60"
+    },
+    {
+        "id":2,
+      "title":" Planned Leaves",
+      "value": "8",
+      "subText": "Today"
+    },
+    {
+        "id":3,
+      "title": "Unplanned Leaves",
+      "value": "0",
+      "subText": "Today"
+    },
+    {
+        "id":4,
+      "title": "Pending Requests",
+      "value": "12"
+    }
+  ]

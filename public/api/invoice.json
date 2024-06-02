@@ -1,0 +1,29 @@
+[
+    {
+      "id": 1,
+      "invoiceNumber": "#INV-0001",
+      "client": "Global Technologies",
+      "issueDate": "11 Mar 2023",
+      "dueDate": "17 Mar 2023",
+      "amount": "2099",
+      "status": "Paid"
+    },
+    {
+      "id": 2,
+      "invoiceNumber": "#INV-0002",
+      "client": "Delta Infotech",
+      "issueDate": "11 Mar 2023",
+      "dueDate": "17 Mar 2023",
+      "amount": "2099",
+      "status": "Sent"
+    },
+    {
+      "id": 3,
+      "invoiceNumber": "#INV-0003",
+      "client": "Cream Inc",
+      "issueDate": "11 Mar 2023",
+      "dueDate": "17 Mar 2023",
+      "amount": "2099",
+      "status": "Partially Paid"
+    }
+  ]

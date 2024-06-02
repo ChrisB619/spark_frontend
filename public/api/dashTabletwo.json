@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "invoiceID": "#INV-0001",
+      "client": "Global Technologies",
+      "paymentType": "Paypal",
+      "paidDate": "11 Mar 2023",
+      "paidAmount": "$380"
+    },
+    {
+      "id": 2,
+      "invoiceID": "#INV-0002",
+      "client": "Delta Infotech",
+      "paymentType": "Paypal",
+      "paidDate": "8 Feb 2023",
+      "paidAmount": "$500"
+    },
+    {
+      "id": 3,
+      "invoiceID": "#INV-0003",
+      "client": "Cream Inc",
+      "paymentType": "Paypal",
+      "paidDate": "23 Jan 2023",
+      "paidAmount": "$60"
+    }
+  ]

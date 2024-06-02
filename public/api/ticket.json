@@ -1,0 +1,23 @@
+[
+    {
+      "title": "New Tickets",
+      "percentage": "+10%",
+      "value": 112
+    },
+    {
+      "title": "Solved Tickets",
+      "percentage": "+12.5%",
+      "value": 70
+    },
+    {
+      "title": "Open Tickets",
+      "percentage": "-2.8%",
+      "value": 100
+    },
+    {
+      "title": "Pending Tickets",
+      "percentage": "-75%",
+      "value": 125
+    }
+    
+  ]

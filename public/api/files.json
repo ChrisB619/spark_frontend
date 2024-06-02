@@ -1,0 +1,86 @@
+[
+    {
+      "fileName": "Updates.docx",
+      "fileType": "docx",
+      "fileSize": "12mb",
+      "lastModified": "9 Aug 1:17 PM",
+      "icon": "fa-regular fa-file-word"
+    },
+    {
+      "fileName": "Vision.ppt",
+      "fileType": "ppt",
+      "fileSize": "72.50kb",
+      "lastModified": "6 Aug 11:42 AM",
+      "icon": "fa-regular fa-file-powerpoint"
+    },
+    {
+      "fileName": "Voice.mp3",
+      "fileType": "mp3",
+      "fileSize": "2.17mb",
+      "lastModified": "30 Jul 9:00 PM",
+      "icon": "fa-regular fa-file-audio"
+    },
+    {
+      "fileName": "Tutorials.pdf",
+      "fileType": "pdf",
+      "fileSize": "8.2mb",
+      "lastModified": "21 Jul 10:45 PM",
+      "icon": "fa-regular fa-file-pdf"
+    },
+    {
+      "fileName": "Users.xls",
+      "fileType": "xls",
+      "fileSize": "92.82kb",
+      "lastModified": "16 Jun 4:59 PM",
+      "icon": "fa-regular fa-file-excel"
+    },
+    {
+      "fileName": "Page.psd",
+      "fileType": "psd",
+      "fileSize": "118.71mb",
+      "lastModified": "14 Jun 9:00 AM",
+      "icon": "fa-regular fa-file-lines"
+    },
+    {
+      "fileName": "License.txt",
+      "fileType": "txt",
+      "fileSize": "18.7kb",
+      "lastModified": "5 May 8:21 PM",
+      "icon": "fa-regular fa-file-lines"
+    },
+    {
+      "fileName": "Expenses.docx",
+      "fileType": "docx",
+      "fileSize": "66.2kb",
+      "lastModified": "24 Apr 7:50 PM",
+      "icon": "fa-regular fa-file-word"
+    },
+    {
+      "fileName": "Music.mp3",
+      "fileType": "mp3",
+      "fileSize": "3.6mb",
+      "lastModified": "13 Mar 2:00 PM",
+      "icon": "fa-regular fa-file-audio"
+    },
+    {
+      "fileName": "Installation.txt",
+      "fileType": "txt",
+      "fileSize": "43.9kb",
+      "lastModified": "26 Feb 5:01 PM",
+      "icon": "fa-regular fa-file-lines"
+    },
+    {
+      "fileName": "Workflow.mp4",
+      "fileType": "mp4",
+      "fileSize": "47.65mb",
+      "lastModified": "3 Jan 11:35 AM",
+      "icon": "fa-regular fa-file-video"
+    },
+    {
+      "fileName": "index",
+      "fileType": "html",
+      "fileSize": "23.7kb",
+      "lastModified": "1 Jan 8:55 AM",
+      "icon": "fa-regular fa-file-code"
+    }
+  ]

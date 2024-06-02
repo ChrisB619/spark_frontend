@@ -1,0 +1,30 @@
+[
+    {
+      "title": "New Employees",
+      "changePercentage": "+10%",
+      "value": 10,
+      "previousValue": 218,
+      "changeDescription": "Overall Employees"
+    },
+    {
+      "title": "Earnings",
+      "changePercentage": "+12.5%",
+      "value": "$1,42,300",
+      "previousValue": "$1,15,852",
+      "changeDescription": "Previous Month"
+    },
+    {
+      "title": "Expenses",
+      "changePercentage": "-2.8%",
+      "value": "$8,500",
+      "previousValue": "$7,500",
+      "changeDescription": "Previous Month"
+    },
+    {
+      "title": "Profit",
+      "changePercentage": "-75%",
+      "value": "$1,12,000",
+      "previousValue": "$1,42,000",
+      "changeDescription": "Previous Month"
+    }
+  ]

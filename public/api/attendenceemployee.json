@@ -1,0 +1,38 @@
+[
+    {
+      "title": "Today",
+      "value": "3.45",
+      "valuespan": "/ 8 hrs",
+      "progressWidth": "31%",
+      "progressBarColor": "bg-primary"
+    },
+    {
+      "title": "This Week",
+      "value": "28",
+      "valuespan": "/ 40 hrs",
+      "progressWidth": "31%",
+      "progressBarColor": "bg-warning"
+    },
+    {
+      "title": "This Month",
+      "value": "90",
+      "valuespan": "/ 160 hrs",
+      "progressWidth": "62%",
+      "progressBarColor": "bg-success"
+    },
+    {
+      "title": "Remaining",
+      "value": "90",
+      "valuespan": "/ 160 hrs",
+      "progressWidth": "62%",
+      "progressBarColor": "bg-danger"
+    },
+    {
+      "title": "Overtime",
+      "value": "4",
+      "valuespan": "",
+      "progressWidth": "22%",
+      "progressBarColor": "bg-info"
+    }
+  ]
+  

@@ -1,0 +1,82 @@
+.form-sort {
+    position: relative;
+   i {
+        position: absolute;
+        z-index: 101;
+        width: 16px;
+        height: 16px;
+        top: 12px;
+        left: 10px;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+        padding-left: 35px;
+    }
+    span.select2-container.select2-container--default.select2-container--open {
+        z-index: 99;
+    }
+}
+.search-set {
+    display: -webkit-box;   
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    .search-input{
+        position: relative;
+        margin-right: 15px;    
+        input[type="search"] {
+            height: 38px;
+            border: 1px solid var(--Stroke, rgba(145, 158, 171, 0.30));
+            background: var(--White, #FFF);
+            width: 298px;
+            @include rounded(8px);
+            padding: 10px;
+            &::placeholder {
+                color: $__black;
+            }
+            @include respond-below(custom1199) {
+                width: 220px;
+            }
+            @include respond-below(custom991) {
+                width: 200px;
+            }
+            @include respond-below(custom575) {
+                width: auto;
+            }
+        }
+        .btn-searchset {
+            @include margin-padding(null, null);
+            @include rounded(50px);
+            @include position(absolute,0,0,null,null);
+            border: 0;
+            .feather-search {
+                width: 14px;
+                height: 14px;
+            }
+        }
+    }
+}
+.filter-section{
+    > ul{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        >li{
+            + li{
+                margin-left: 10px;
+            }
+            .select2-container{
+                min-width: 200px !important;
+                .select2-selection{
+                    &.select2-selection--single{
+                        height: 38px;
+                    }
+                    .select2-selection__rendered{
+                        line-height: 38px;
+                    }
+                }
+            }
+        }
+    }
+}

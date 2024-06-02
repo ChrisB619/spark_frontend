@@ -1,0 +1,20 @@
+[
+	{
+		"id": "1",
+		"Date": "19 Feb 2023",
+		"PunchIn": "10 AM",
+		"PunchOut": "7 PM",
+		"Production": "9 hrs",
+		"Break": "1 hrs",
+		"Overtime": "0"
+	},
+	{
+		"id": "2",
+		"Date": "20 Feb 2023",
+		"PunchIn": "10 AM",
+		"PunchOut": "7 PM",
+		"Production": "9 hrs",
+		"Break": "1 hrs",
+		"Overtime": "0"
+	}
+]

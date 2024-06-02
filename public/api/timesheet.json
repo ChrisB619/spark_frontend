@@ -1,0 +1,108 @@
+[
+  {
+    "id": 1,
+    "img":"/assets/img/profiles/avatar-02.jpg",
+    "name": "John Doe",
+    "role": "Web Designer",
+    "date": "1 Jan 2023",
+    "projects": "Video Calling App",
+    "assignedhours": "20",
+    "hours": "12",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 2,
+
+    "name": "Richard Miles",
+    "role": "Android Developer",
+    "date": "1 Jan 2023",
+    "projects": "Project Management",
+    "assignedhours": "10",
+    "hours": "12",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 3,
+
+    "name": "Jeffery Lalor ",
+    "role": "Team Leader",
+    "date": "1 Jan 2023",
+    "projects": "Ware house developement",
+    "assignedhours": "10",
+    "hours": "12",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 4,
+    "name": "Jeffrey Warden",
+    "role": "Web Developer ",
+    "date": "1 Jan 2023",
+    "projects": "Project Management",
+    "assignedhours": "10",
+    "hours": "12",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 5,
+    "name": "John Doe",
+    "role": "Web Designer",
+    "date": "1 Jan 2023",
+    "projects": "Office Management",
+    "assignedhours": "10",
+    "hours": "12",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 6,
+
+    "name": "John Smith ",
+    "role": "Android Developer",
+    "date": "1 Jan 2023",
+    "projects": "Video Calling App",
+    "assignedhours": "10",
+    "hours": "12",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 7,
+    "name": " Lesley Grauer",
+    "role": "Team Leader",
+    "date": "1 Jan 2023",
+    "projects": "Hospital Administration",
+    "assignedhours": "10",
+    "hours": "12",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 8,
+
+    "name": " Loren Gatlin ",
+    "role": "Android Developer",
+    "date": "1 Jan 2023",
+    "projects": "Office Management",
+    "assignedhours": "10",
+    "hours": "12",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 9,
+    "name": " Mike Litorus",
+    "role": "Android DeveloperIOS Developer",
+    "date": "1 Jan 2023",
+    "projects": "Hospital Administration",
+    "assignedhours": "10",
+    "hours": "12",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 10,
+
+    "name": "Richard Miles",
+    "role": "Web Developer",
+    "date": "1 Jan 2023",
+    "projects": "Project Management",
+    "assignedhours": "10",
+    "hours": "12",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  }
+]

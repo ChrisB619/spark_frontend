@@ -1,0 +1,34 @@
+[
+    {
+      "id": "EST-0001",
+      "company": "Global Technologies",
+      "startDate": "11 Mar 2023",
+      "endDate": "17 Mar 2023",
+      "amount": "$2099",
+      "status": "Accepted"
+    },
+    {
+      "id": "EST-0002",
+      "company": "Delta Infotech",
+      "startDate": "11 Mar 2023",
+      "endDate": "17 Mar 2023",
+      "amount": "$2099",
+      "status": "Declined"
+    },
+    {
+      "id": "EST-0003",
+      "company": "Cream Inc",
+      "startDate": "11 Mar 2023",
+      "endDate": "17 Mar 2023",
+      "amount": "$2099",
+      "status": "Sent"
+    },
+    {
+      "id": "EST-0004",
+      "company": "International Software Inc",
+      "startDate": "11 Mar 2023",
+      "endDate": "17 Mar 2023",
+      "amount": "$2099",
+      "status": "Expired"
+    }
+  ]

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "InvoiceID": "#INV-0001",
+        "Client": "Global Technologies",
+        "DueDate": "11 Mar 2023",
+        "Total": "$380",
+        "Status": "Partially Paid"
+    },
+    {
+        "id": 2,
+        "InvoiceID": "#INV-0002",
+        "Client": "Delta Infotech",
+        "DueDate": "8 Feb 2023",
+        "Total": "$500",
+        "Status": "Paid"
+    },
+    {
+        "id": 3,
+        "InvoiceID": "#INV-0003",
+        "Client": "Cream Inc",
+        "DueDate": "23 Jan 2023",
+        "Total": "$60",
+        "Status": "Unpaid"
+    }
+]
