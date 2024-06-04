@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Table } from 'antd';
 import CompaniesModal from '../../../components/modelpopup/CompaniesModal';
 import AddNotes from '../../../components/modelpopup/Crm/AddNotes';
 import CompaniesGrid from './CompaniesGrid';
+import CompaniesHeader from './CompaniesHeader';
+import FilterFields from './FilterFields';
+import CompaniesTable from './CompaniesTable';
+import CompanyDetails from './CompanyDetails';
 import { getCompanies, deleteCompany } from '../../../apiService';
 
 const Companies = () => {
@@ -15,7 +18,7 @@ const Companies = () => {
   const [inputValueThree, setInputValueThree] = useState("");
   const [selectedCompany, setSelectedCompany] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [viewType, setViewType] = useState('table'); // State to toggle between grid and table views
+  const [viewType, setViewType] = useState('table');
 
   useEffect(() => {
     const fetchCompanies = async () => {
@@ -66,6 +69,10 @@ const Companies = () => {
     setSelectedCompany(null);
   };
 
+  const handleSelectCompany = (company) => {
+    setSelectedCompany(company);
+  };
+
   const columns = [
     {
       title: "Name",
@@ -74,20 +81,15 @@ const Companies = () => {
         <div className="d-flex">
           <div>
             <h2 className="table-avatar d-flex align-items-center table-padding">
-              <Link to="/company-details" className="company-img">
+              <Link to="#" className="company-img" onClick={() => handleSelectCompany(record)}>
                 <img src={record.profile_image || 'default-image-path'} alt="UserImage" />
               </Link>
-              <Link to="/company-details" className="profile-split">{record.name}</Link>
+              <Link to="#" className="profile-split" onClick={() => handleSelectCompany(record)}>{record.name}</Link>
             </h2>
           </div>
         </div>
       ),
       sorter: (a, b) => a.name.length - b.name.length,
-    },
-    {
-      title: "Phone",
-      dataIndex: "phone_number",
-      sorter: (a, b) => a.phone_number.length - b.phone_number.length,
     },
     {
       title: "Email",
@@ -136,7 +138,7 @@ const Companies = () => {
             >
               <i className="fa fa-trash m-r-5" /> Delete
             </Link>
-            <Link className="dropdown-item" to="/company-details">
+            <Link className="dropdown-item" to="#" onClick={() => handleSelectCompany(record)}>
               <i className="fa-regular fa-eye"></i> Preview
             </Link>
             <Link className="dropdown-item" to="#" data-bs-toggle="modal" data-bs-target="#add_notes" >
@@ -148,84 +150,35 @@ const Companies = () => {
     },
   ];
 
+  if (selectedCompany) {
+    return <CompanyDetails company={selectedCompany} onBack={() => setSelectedCompany(null)} />;
+  }
+
   return (
     <div className="page-wrapper">
       <div className="content container-fluid">
-        <div className="page-header">
-          <div className="row align-items-center">
-            <div className="col-md-4">
-              <h3 className="page-title">Companies</h3>
-              <ul className="breadcrumb">
-                <li className="breadcrumb-item"><Link to="/admin-dashboard">Dashboard</Link></li>
-                <li className="breadcrumb-item active">Companies</li>
-              </ul>
-            </div>
-            <div className="col-md-8 float-end ms-auto">
-              <div className="d-flex title-head">
-                <div className="view-icons">
-                  <Link to="#" className="grid-view btn btn-link" onClick={() => setViewType('grid')}><i className="las la-th" /></Link>
-                  <Link to="#" className="list-view btn btn-link" onClick={() => setViewType('table')}><i className="las la-list" /></Link>
-                  <Link to="#" className={fieldInputs ? "list-view btn btn-link active-filter" : "list-view btn btn-link"} id="filter_search" onClick={() => setFieldInputs(!fieldInputs)}><i className="las la-filter" /></Link>
-                </div>
-                <div className="form-sort">
-                  <Link to="#" className="list-view btn btn-link" data-bs-toggle="modal" data-bs-target="#export"><i className="las la-file-export" />Export</Link>
-                </div>
-                <Link to="#" className="btn add-btn" data-bs-toggle="modal" data-bs-target="#add_company" onClick={handleAddCompany}><i className="la la-plus-circle" /> Add Company</Link>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="filter-filelds" id="filter_inputs" style={{ display: fieldInputs ? "block" : "none" }}>
-          <div className="row filter-row">
-            <div className="col-xl-2">
-              <div className="input-block form-focus focused">
-                <input
-                  type="text"
-                  className="form-control floating"
-                  value={inputValue}
-                  onChange={(e) => setInputValue(e.target.value)}
-                />
-                <label className="focus-label">Company Name</label>
-              </div>
-            </div>
-            <div className="col-xl-2">
-              <div className="input-block form-focus focused">
-                <input
-                  type="text"
-                  className="form-control floating"
-                  value={inputValueTwo}
-                  onChange={(e) => setInputValueTwo(e.target.value)}
-                />
-                <label className="focus-label">Email</label>
-              </div>
-            </div>
-            <div className="col-xl-2">
-              <div className="input-block form-focus focused">
-                <input
-                  type="text"
-                  className="form-control floating"
-                  value={inputValueThree}
-                  onChange={(e) => setInputValueThree(e.target.value)}
-                />
-                <label className="focus-label">Phone Number</label>
-              </div>
-            </div>
-            <div className="col-xl-2">
-              <Link to="#" className="btn btn-success w-100" onClick={handleSearch}> Search </Link>
-            </div>
-          </div>
-        </div>
+        <CompaniesHeader 
+          setViewType={setViewType}
+          fieldInputs={fieldInputs}
+          setFieldInputs={setFieldInputs}
+          handleAddCompany={handleAddCompany}
+        />
+        <FilterFields 
+          fieldInputs={fieldInputs}
+          inputValue={inputValue}
+          setInputValue={setInputValue}
+          inputValueTwo={inputValueTwo}
+          setInputValueTwo={setInputValueTwo}
+          inputValueThree={inputValueThree}
+          setInputValueThree={setInputValueThree}
+          handleSearch={handleSearch}
+        />
         <hr />
         <div className="row">
           <div className="col-md-12">
             <div className="table-responsive">
               {viewType === 'table' ? (
-                <Table
-                  className="table-striped"
-                  columns={columns}
-                  dataSource={filteredCompanies}
-                  rowKey={(record) => record.id}
-                />
+                <CompaniesTable columns={columns} data={filteredCompanies} />
               ) : (
                 <CompaniesGrid companies={filteredCompanies} />
               )}

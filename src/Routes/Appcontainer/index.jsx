@@ -181,7 +181,7 @@ import DealsDashboard from "../../views/pages/MainPages/Dashboard/DealsDashboard
 import LeadsDashboard from "../../views/pages/MainPages/Dashboard/LeadsDashboard/index.jsx";
 import ComingSoon from "../../views/pages/Pages/ComingSoon.jsx";
 import TicketDetails from "../../views/pages/Employees/TicketDetails.jsx";
-import Companies from "../../views/pages/Crm/companies.jsx";
+import Companies from "../../views/pages/Crm/Companies.jsx";
 import ContactDetails from "../../views/pages/Crm/ContactDetails.jsx";
 import LeadsList from "../../views/pages/Crm/LeadsList.jsx";
 import LeadsKanban from "../../views/pages/Crm/LeadsKanban.jsx";
